@@ -1,0 +1,36 @@
+{
+    "name": "lessweb",
+    "description": "Less.js Converter",
+    "homepage": "https://github.com/last/lessweb",
+    "keywords": [
+        "less",
+        "less.js",
+        "lesscss",
+        "lessjs"
+    ],
+    "version": "0.0.3",
+    "author" : "Brendon Crawford",
+    "bin": {
+        "lessweb": "./bin/lessweb.js"
+    },
+    "dependencies": {
+        "less": ">=1.1.2",
+        "optparse": ">=1.0.1"
+    },
+    "engines": {
+        "node": ">=0.4.8"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/last/lessweb.git"
+    },
+    "bugs": {
+        "url": "https://github.com/last/lessweb/issues"
+    },
+    "licenses": [
+        {
+            "type": "GPL3",
+            "url": "http://www.gnu.org/licenses/agpl-3.0.html"
+        }
+    ]
+}
